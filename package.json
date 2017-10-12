@@ -1,0 +1,23 @@
+{
+  "name": "testfirebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/js/MyFirebase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wfs": "webpack && firebase serve",
+    "wo" :"webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "firebase": "^4.5.0",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.3.0",
+    "request": "^2.83.0",
+    "webpack": "^3.7.1"
+  }
+}
